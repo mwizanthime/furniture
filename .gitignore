@@ -1,0 +1,16 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
+
+# PSD (large, not needed for deployment)
+*.psd
+
+# Old files
+index.html
+style.css
+Skills.md
