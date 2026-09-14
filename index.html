@@ -4,19 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Modern Home Rwanda — Furniture & Interior Design</title>
-  <meta name="description" content="Modern Home Rwanda creates premium furniture, interior design solutions and custom spaces in Kigali, Rwanda.">
-  <meta name="keywords" content="furniture, interior design, Kigali, Rwanda, modern home, premium furniture, custom spaces">
+  <meta name="description" content="Modern Home Rwanda creates premium furniture, interior design solutions and custom spaces in Musaze, Rwanda.">
+  <meta name="keywords" content="furniture, interior design, Musaze, Rwanda, modern home, premium furniture, custom spaces">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="#">
   <meta property="og:title" content="Modern Home Rwanda — Furniture & Interior Design">
-  <meta property="og:description" content="Contemporary living, crafted for Rwanda. Premium furniture and interior solutions in Kigali.">
+  <meta property="og:description" content="Contemporary living, crafted for Rwanda. Premium furniture and interior solutions in Musaze.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="project SONNY.png">
   <meta property="og:locale" content="en_RW">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%233A2E25'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='18' font-weight='700' fill='%23B08D57' text-anchor='middle'%3EMH%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
       --ivory:#F5F0E8;--ivory-warm:#EDE8DE;--ivory-deep:#E4DDCF;--cream:#FAF7F2;--white:#FFFFFF;
@@ -28,6 +28,7 @@
       --glass:rgba(245,240,232,0.88);--glass-heavy:rgba(245,240,232,0.95);
       --font-display:'Playfair Display',Georgia,'Times New Roman',serif;
       --font-body:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+      --font-numbers:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
       --gutter:clamp(20px,4vw,56px);--section-gap:clamp(80px,10vw,140px);
       --content-max:1280px;--content-narrow:820px;
       --ease-out:cubic-bezier(0.22,1,0.36,1);--ease-in-out:cubic-bezier(0.65,0,0.35,1);
@@ -146,7 +147,7 @@
     .room__panel-info{flex:1;min-width:0}
     .room__panel-name{font-family:var(--font-display);font-size:18px;font-weight:500;margin-bottom:2px}
     .room__panel-material{font-size:13px;color:var(--stone);margin-bottom:4px}
-    .room__panel-price{font-family:var(--font-display);font-size:17px;color:var(--walnut)}
+    .room__panel-price{font-family:var(--font-numbers);font-size:17px;font-weight:600;color:var(--walnut);font-variant-numeric:tabular-nums}
     .room__panel-actions{display:flex;gap:8px;flex-shrink:0}
     .room__panel-close{position:absolute;top:10px;right:14px;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--stone);transition:all var(--dur-fast) var(--ease-out)}
     .room__panel-close:hover{background:var(--line);color:var(--ink)}
@@ -193,8 +194,8 @@
     .product-card__name{font-family:var(--font-display);font-size:19px;font-weight:500;margin-bottom:4px;color:var(--ink)}
     .product-card__material{font-size:13px;color:var(--stone);margin-bottom:10px}
     .product-card__footer{display:flex;align-items:center;justify-content:space-between}
-    .product-card__price{font-family:var(--font-display);font-size:18px;color:var(--walnut)}
-    .product-card__price-currency{font-family:var(--font-body);font-size:13px;font-weight:400;color:var(--stone);margin-left:4px}
+    .product-card__price{font-family:var(--font-numbers);font-size:18px;font-weight:600;color:var(--walnut);font-variant-numeric:tabular-nums}
+    .product-card__price-currency{font-family:var(--font-numbers);font-size:13px;font-weight:400;color:var(--stone);margin-left:4px;font-variant-numeric:tabular-nums}
     .product-card__status{font-size:12px;font-weight:500;padding:3px 8px;border-radius:var(--radius-sm)}
     .product-card__status--in-stock{color:var(--sage);background:rgba(139,154,126,0.12)}
     .product-card__status--made-to-order{color:var(--walnut);background:rgba(122,80,56,0.1)}
@@ -217,8 +218,8 @@
     .drawer__material{font-size:14px;color:var(--stone);margin-bottom:4px}
     .drawer__dim{font-size:14px;color:var(--stone);margin-bottom:16px}
     .drawer__divider{width:100%;height:1px;background:var(--line);margin:16px 0}
-    .drawer__price{font-family:var(--font-display);font-size:26px;color:var(--walnut);margin-bottom:6px}
-    .drawer__price-currency{font-family:var(--font-body);font-size:14px;color:var(--stone);margin-left:6px}
+    .drawer__price{font-family:var(--font-display);font-size:26px;color:var(--walnut);margin-bottom:6px;font-variant-numeric:tabular-nums}
+    .drawer__price-currency{font-family:var(--font-body);font-size:14px;color:var(--stone);margin-left:6px;font-variant-numeric:tabular-nums}
     .drawer__availability{font-size:13px;color:var(--sage);font-weight:500;margin-bottom:24px}
     .drawer__desc{font-size:15px;line-height:1.65;color:var(--espresso);opacity:0.8;margin-bottom:28px}
     .drawer__actions{display:flex;gap:10px}
@@ -234,7 +235,7 @@
     .craft__stats{display:flex;gap:40px}
     .craft__stat{display:flex;flex-direction:column}
     .craft__stat-label{font-size:12px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--brass);margin-bottom:4px}
-    .craft__stat-value{font-family:var(--font-display);font-size:15px;color:var(--ink)}
+    .craft__stat-value{font-family:var(--font-display);font-size:15px;color:var(--ink);font-variant-numeric:tabular-nums}
     .interiors{padding:var(--section-gap) 0;background:var(--cream)}
     .interiors__header{text-align:center;margin-bottom:clamp(40px,5vw,64px)}
     .interiors__eyebrow{font-size:13px;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:var(--brass);margin-bottom:12px}
@@ -326,7 +327,7 @@
 <section class="hero" id="hero">
   <img class="hero__media" src="project SONNY.png" alt="Modern living room with premium furniture in a sunlit interior" loading="eager">
   <div class="hero__content">
-    <p class="hero__eyebrow">Kigali &middot; Rwanda</p>
+    <p class="hero__eyebrow">Musaze &middot; Rwanda</p>
     <h1 class="hero__title">
       <span>Spaces designed</span>
       <span>to feel like home.</span>
@@ -366,7 +367,7 @@
     </div>
     <div class="services__grid">
       <div class="service-card reveal" tabindex="0" role="button" aria-label="Explore Furniture">
-        <img class="service-card__image" src="video/Professional e-commerce furniture catalog layout, multiple furniture pieces displayed in modern showroom, dining table set, bookshelf, and accent chair, bright natural lighting, clean professional product photo (1).jpg" alt="Premium furniture collection in a modern showroom" loading="lazy">
+        <img class="service-card__image" src="video/PXL_20260813_084944983.NIGHT.jpg.jpeg" alt="Premium furniture collection in a modern showroom" loading="lazy">
         <div class="service-card__overlay"></div>
         <div class="service-card__content">
           <h3 class="service-card__name">Furniture</h3>
@@ -375,7 +376,7 @@
         </div>
       </div>
       <div class="service-card reveal" tabindex="0" role="button" aria-label="Explore Interior Design">
-        <img class="service-card__image" src="video/Professional e-commerce furniture photography, modern grey sofa in a bright living room with natural lighting, styled with cushions and plants, clean minimalist interior, shot from 45 degree angle, high quality (1).jpg" alt="Interior design showcase with modern furnishings" loading="lazy">
+        <img class="service-card__image" src="video/PXL_20260813_085026540.NIGHT.jpg.jpeg" alt="Interior design showcase with modern furnishings" loading="lazy">
         <div class="service-card__overlay"></div>
         <div class="service-card__content">
           <h3 class="service-card__name">Interior Design</h3>
@@ -384,7 +385,7 @@
         </div>
       </div>
       <div class="service-card reveal" tabindex="0" role="button" aria-label="Start a Custom Project">
-        <img class="service-card__image" src="video/Lifestyle furniture photography, family relaxing on modern beige sofa in bright living room, natural window light, cozy atmosphere, professional e-commerce product photography showing furniture in use (1).jpg" alt="Custom furniture and bespoke interior solutions" loading="lazy">
+        <img class="service-card__image" src="video/PXL_20260813_085318077.NIGHT.jpg.jpeg" alt="Custom furniture and bespoke interior solutions" loading="lazy">
         <div class="service-card__overlay"></div>
         <div class="service-card__content">
           <h3 class="service-card__name">Custom Spaces</h3>
@@ -404,7 +405,7 @@
       <h2 class="room__title">See it in context</h2>
     </div>
     <div class="room__stage reveal">
-      <img class="room__image" src="video/Professional e-commerce furniture catalog layout, multiple furniture pieces displayed in modern showroom, dining table set, bookshelf, and accent chair, bright natural lighting, clean professional product photograp.jpg" alt="Interactive room showcase with selectable furniture pieces" loading="lazy">
+      <img class="room__image" src="video/PXL_20260813_085521498.NIGHT.jpg.jpeg" alt="Interactive room showcase with selectable furniture pieces" loading="lazy">
       <div class="room__hotspots-desktop">
         <button class="room__hotspot is-active" style="top:52%;left:28%;" data-product="sofa" aria-label="Select Sofa" type="button"><span class="room__hotspot-pulse"></span></button>
         <button class="room__hotspot" style="top:62%;left:50%;" data-product="coffee-table" aria-label="Select Coffee Table" type="button"><span class="room__hotspot-pulse"></span></button>
@@ -417,7 +418,7 @@
         <div class="room__panel-info">
           <h3 class="room__panel-name" id="roomPanelName">Floral Sofa</h3>
           <p class="room__panel-material" id="roomPanelMaterial">Velvet upholstery, oak frame</p>
-          <p class="room__panel-price" id="roomPanelPrice">580,000 RWF</p>
+          <p class="room__panel-price" id="roomPanelPrice">350,000 RWF</p>
         </div>
         <div class="room__panel-actions">
           <a href="#catalog" class="btn btn--primary" style="padding:10px 18px;font-size:12px;">View Details</a>
@@ -464,7 +465,7 @@
     <div class="catalog__grid" id="catalogGrid">
 
       <!-- PRODUCT: Floral Sofa -->
-      <article class="product-card" data-category="seating" data-name="Floral Sofa" data-material="Velvet upholstery, oak frame" data-dim="210 x 90 x 85 cm" data-price="580000" data-image="PXL_20260813_085633018.NIGHT.jpeg" data-status="in-stock" data-badge="featured" data-order="1">
+      <article class="product-card" data-category="seating" data-name="Floral Sofa" data-material="Velvet upholstery, oak frame" data-dim="210 x 90 x 85 cm" data-price="350000" data-image="PXL_20260813_085633018.NIGHT.jpeg" data-status="in-stock" data-badge="featured" data-order="1">
         <div class="product-card__image-wrap">
           <img class="product-card__image" src="PXL_20260813_085633018.NIGHT.jpeg" alt="Floral Sofa with velvet upholstery and oak frame" loading="lazy">
           <span class="product-card__badge product-card__badge--featured">Featured</span>
@@ -476,14 +477,14 @@
           <h3 class="product-card__name">Floral Sofa</h3>
           <p class="product-card__material">Velvet &amp; oak</p>
           <div class="product-card__footer">
-            <span class="product-card__price">580,000<span class="product-card__price-currency">RWF</span></span>
+            <span class="product-card__price">350,000<span class="product-card__price-currency">RWF</span></span>
             <span class="product-card__status product-card__status--in-stock">In Stock</span>
           </div>
         </div>
       </article>
 
       <!-- PRODUCT: Rustic Coffee Table -->
-      <article class="product-card" data-category="tables" data-name="Rustic Coffee Table" data-material="Reclaimed teak, iron base" data-dim="120 x 60 x 42 cm" data-price="220000" data-image="coff.jpeg" data-status="in-stock" data-badge="bestseller" data-order="2">
+      <article class="product-card" data-category="tables" data-name="Rustic Coffee Table" data-material="Reclaimed teak, iron base" data-dim="120 x 60 x 42 cm" data-price="150000" data-image="coff.jpeg" data-status="in-stock" data-badge="bestseller" data-order="2">
         <div class="product-card__image-wrap">
           <img class="product-card__image" src="coff.jpeg" alt="Rustic Coffee Table with reclaimed teak and iron base" loading="lazy">
           <span class="product-card__badge product-card__badge--bestseller">Bestseller</span>
@@ -495,14 +496,14 @@
           <h3 class="product-card__name">Rustic Coffee Table</h3>
           <p class="product-card__material">Teak &amp; iron</p>
           <div class="product-card__footer">
-            <span class="product-card__price">220,000<span class="product-card__price-currency">RWF</span></span>
+            <span class="product-card__price">150,000<span class="product-card__price-currency">RWF</span></span>
             <span class="product-card__status product-card__status--in-stock">In Stock</span>
           </div>
         </div>
       </article>
 
       <!-- PRODUCT: Heritage Wardrobe -->
-      <article class="product-card" data-category="storage" data-name="Heritage Wardrobe" data-material="Solid mahogany, brass fittings" data-dim="180 x 60 x 210 cm" data-price="750000" data-image="ward.jpeg" data-status="made-to-order" data-badge="made-to-order" data-order="3">
+      <article class="product-card" data-category="storage" data-name="Heritage Wardrobe" data-material="Solid mahogany, brass fittings" data-dim="180 x 60 x 210 cm" data-price="150000" data-image="ward.jpeg" data-status="made-to-order" data-badge="made-to-order" data-order="3">
         <div class="product-card__image-wrap">
           <img class="product-card__image" src="ward.jpeg" alt="Heritage Wardrobe in solid mahogany with brass fittings" loading="lazy">
           <span class="product-card__badge product-card__badge--made-to-order">Made to Order</span>
@@ -514,7 +515,7 @@
           <h3 class="product-card__name">Heritage Wardrobe</h3>
           <p class="product-card__material">Mahogany &amp; brass</p>
           <div class="product-card__footer">
-            <span class="product-card__price">750,000<span class="product-card__price-currency">RWF</span></span>
+            <span class="product-card__price">150,000<span class="product-card__price-currency">RWF</span></span>
             <span class="product-card__status product-card__status--made-to-order">Made to Order</span>
           </div>
         </div>
@@ -539,12 +540,12 @@
         </div>
       </article>
 
-      <!-- PRODUCT: Kivu Lounge Chair (SVG) -->
-      <article class="product-card" data-category="seating" data-name="Kivu Lounge Chair" data-material="Walnut frame, hand-woven linen" data-dim="72 x 80 x 75 cm" data-price="185000" data-status="in-stock" data-badge="" data-order="5">
-        <div class="product-card__image-wrap" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--ivory-deep),var(--ivory));">
-          <svg viewBox="0 0 100 100" fill="none" stroke="var(--walnut)" stroke-width="1.5" style="width:55%;height:55%;"><path d="M28 72 L28 48 Q28 38 38 38 L62 38 Q72 38 72 48 L72 72"/><path d="M20 72 L80 72"/><path d="M36 38 L36 28 Q36 22 42 22 L58 22 Q64 22 64 28 L64 38"/></svg>
-          <button class="product-card__wishlist" aria-label="Add Kivu Lounge Chair to wishlist" type="button" style="opacity:1;transform:none;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-          <button class="product-card__quickview" aria-label="Quick view Kivu Lounge Chair" type="button" style="opacity:1;transform:none;">Quick View</button>
+      <!-- PRODUCT: Kivu Lounge Chair -->
+      <article class="product-card" data-category="seating" data-name="Kivu Lounge Chair" data-material="Walnut frame, hand-woven linen" data-dim="72 x 80 x 75 cm" data-price="185000" data-image="video/PXL_20260813_085720070.NIGHT.jpg.jpeg" data-status="in-stock" data-badge="" data-order="5">
+        <div class="product-card__image-wrap">
+          <img class="product-card__image" src="video/PXL_20260813_085720070.NIGHT.jpg.jpeg" alt="Kivu Lounge Chair with walnut frame and hand-woven linen" loading="lazy">
+          <button class="product-card__wishlist" aria-label="Add Kivu Lounge Chair to wishlist" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+          <button class="product-card__quickview" aria-label="Quick view Kivu Lounge Chair" type="button">Quick View</button>
         </div>
         <div class="product-card__meta">
           <p class="product-card__category">Seating</p>
@@ -557,12 +558,13 @@
         </div>
       </article>
 
-      <!-- PRODUCT: Gishwati Armchair (SVG) -->
-      <article class="product-card" data-category="seating" data-name="Gishwati Armchair" data-material="Oak frame, bouclé upholstery" data-dim="80 x 85 x 78 cm" data-price="240000" data-status="made-to-order" data-badge="made-to-order" data-order="6">
-        <div class="product-card__image-wrap" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--ivory-deep),var(--ivory));">
-          <svg viewBox="0 0 100 100" fill="none" stroke="var(--walnut)" stroke-width="1.5" style="width:55%;height:55%;"><path d="M25 70 L25 45 Q25 35 35 35 L65 35 Q75 35 75 45 L75 70"/><path d="M15 70 L85 70"/><path d="M30 35 L30 25 Q30 18 40 18 L60 18 Q70 18 70 25 L70 35"/><path d="M38 70 L38 55 L62 55 L62 70"/></svg>
-          <button class="product-card__wishlist" aria-label="Add Gishwati Armchair to wishlist" type="button" style="opacity:1;transform:none;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-          <button class="product-card__quickview" aria-label="Quick view Gishwati Armchair" type="button" style="opacity:1;transform:none;">Quick View</button>
+      <!-- PRODUCT: Gishwati Armchair -->
+      <article class="product-card" data-category="seating" data-name="Gishwati Armchair" data-material="Oak frame, bouclé upholstery" data-dim="80 x 85 x 78 cm" data-price="240000" data-image="video/PXL_20260813_085710707.NIGHT.jpg.jpeg" data-status="made-to-order" data-badge="made-to-order" data-order="6">
+        <div class="product-card__image-wrap">
+          <img class="product-card__image" src="video/PXL_20260813_085710707.NIGHT.jpg.jpeg" alt="Gishwati Armchair with oak frame and bouclé upholstery" loading="lazy">
+          <span class="product-card__badge product-card__badge--made-to-order">Made to Order</span>
+          <button class="product-card__wishlist" aria-label="Add Gishwati Armchair to wishlist" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+          <button class="product-card__quickview" aria-label="Quick view Gishwati Armchair" type="button">Quick View</button>
         </div>
         <div class="product-card__meta">
           <p class="product-card__category">Seating</p>
@@ -575,12 +577,13 @@
         </div>
       </article>
 
-      <!-- PRODUCT: Nyungwe Dining Table (SVG) -->
-      <article class="product-card" data-category="tables" data-name="Nyungwe Dining Table" data-material="Solid mahogany" data-dim="200 x 95 x 76 cm" data-price="620000" data-status="in-stock" data-badge="featured" data-order="7">
-        <div class="product-card__image-wrap" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--ivory-deep),var(--ivory));">
-          <svg viewBox="0 0 100 100" fill="none" stroke="var(--walnut)" stroke-width="1.5" style="width:55%;height:55%;"><rect x="15" y="40" width="70" height="8" rx="2"/><path d="M25 48 L25 78"/><path d="M75 48 L75 78"/><path d="M30 78 L20 85"/><path d="M70 78 L80 85"/></svg>
-          <button class="product-card__wishlist" aria-label="Add Nyungwe Dining Table to wishlist" type="button" style="opacity:1;transform:none;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-          <button class="product-card__quickview" aria-label="Quick view Nyungwe Dining Table" type="button" style="opacity:1;transform:none;">Quick View</button>
+      <!-- PRODUCT: Nyungwe Dining Table -->
+      <article class="product-card" data-category="tables" data-name="Nyungwe Dining Table" data-material="Solid mahogany" data-dim="200 x 95 x 76 cm" data-price="620000" data-image="video/PXL_20260813_091049456.jpg.jpeg" data-status="in-stock" data-badge="featured" data-order="7">
+        <div class="product-card__image-wrap">
+          <img class="product-card__image" src="video/PXL_20260813_091049456.jpg.jpeg" alt="Nyungwe Dining Table in solid mahogany" loading="lazy">
+          <span class="product-card__badge product-card__badge--featured">Featured</span>
+          <button class="product-card__wishlist" aria-label="Add Nyungwe Dining Table to wishlist" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+          <button class="product-card__quickview" aria-label="Quick view Nyungwe Dining Table" type="button">Quick View</button>
         </div>
         <div class="product-card__meta">
           <p class="product-card__category">Tables</p>
@@ -593,12 +596,12 @@
         </div>
       </article>
 
-      <!-- PRODUCT: Akagera Side Table (SVG) -->
-      <article class="product-card" data-category="tables" data-name="Akagera Side Table" data-material="Ash wood" data-dim="45 x 45 x 50 cm" data-price="95000" data-status="in-stock" data-badge="" data-order="8">
-        <div class="product-card__image-wrap" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--ivory-deep),var(--ivory));">
-          <svg viewBox="0 0 100 100" fill="none" stroke="var(--walnut)" stroke-width="1.5" style="width:55%;height:55%;"><rect x="30" y="35" width="40" height="6" rx="2"/><path d="M38 41 L38 72"/><path d="M62 41 L62 72"/><path d="M28 72 L72 72"/></svg>
-          <button class="product-card__wishlist" aria-label="Add Akagera Side Table to wishlist" type="button" style="opacity:1;transform:none;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-          <button class="product-card__quickview" aria-label="Quick view Akagera Side Table" type="button" style="opacity:1;transform:none;">Quick View</button>
+      <!-- PRODUCT: Akagera Side Table -->
+      <article class="product-card" data-category="tables" data-name="Akagera Side Table" data-material="Ash wood" data-dim="45 x 45 x 50 cm" data-price="95000" data-image="video/PXL_20260813_091702263.jpg.jpeg" data-status="in-stock" data-badge="" data-order="8">
+        <div class="product-card__image-wrap">
+          <img class="product-card__image" src="video/PXL_20260813_091702263.jpg.jpeg" alt="Akagera Side Table in ash wood" loading="lazy">
+          <button class="product-card__wishlist" aria-label="Add Akagera Side Table to wishlist" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+          <button class="product-card__quickview" aria-label="Quick view Akagera Side Table" type="button">Quick View</button>
         </div>
         <div class="product-card__meta">
           <p class="product-card__category">Tables</p>
@@ -611,12 +614,13 @@
         </div>
       </article>
 
-      <!-- PRODUCT: Musanze Sideboard (SVG) -->
-      <article class="product-card" data-category="storage" data-name="Musanze Sideboard" data-material="Walnut veneer, brass pulls" data-dim="160 x 45 x 80 cm" data-price="480000" data-status="in-stock" data-badge="new" data-order="9">
-        <div class="product-card__image-wrap" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--ivory-deep),var(--ivory));">
-          <svg viewBox="0 0 100 100" fill="none" stroke="var(--walnut)" stroke-width="1.5" style="width:55%;height:55%;"><rect x="15" y="35" width="70" height="40" rx="3"/><line x1="50" y1="35" x2="50" y2="75"/><circle cx="38" cy="55" r="3"/><circle cx="62" cy="55" r="3"/><path d="M25 75 L20 85"/><path d="M75 75 L80 85"/></svg>
-          <button class="product-card__wishlist" aria-label="Add Musanze Sideboard to wishlist" type="button" style="opacity:1;transform:none;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-          <button class="product-card__quickview" aria-label="Quick view Musanze Sideboard" type="button" style="opacity:1;transform:none;">Quick View</button>
+      <!-- PRODUCT: Musanze Sideboard -->
+      <article class="product-card" data-category="storage" data-name="Musanze Sideboard" data-material="Walnut veneer, brass pulls" data-dim="160 x 45 x 80 cm" data-price="480000" data-image="video/PXL_20260813_091608612.jpg.jpeg" data-status="in-stock" data-badge="new" data-order="9">
+        <div class="product-card__image-wrap">
+          <img class="product-card__image" src="video/PXL_20260813_091608612.jpg.jpeg" alt="Musanze Sideboard with walnut veneer and brass pulls" loading="lazy">
+          <span class="product-card__badge product-card__badge--new">New</span>
+          <button class="product-card__wishlist" aria-label="Add Musanze Sideboard to wishlist" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+          <button class="product-card__quickview" aria-label="Quick view Musanze Sideboard" type="button">Quick View</button>
         </div>
         <div class="product-card__meta">
           <p class="product-card__category">Storage</p>
@@ -624,42 +628,6 @@
           <p class="product-card__material">Walnut veneer</p>
           <div class="product-card__footer">
             <span class="product-card__price">480,000<span class="product-card__price-currency">RWF</span></span>
-            <span class="product-card__status product-card__status--in-stock">In Stock</span>
-          </div>
-        </div>
-      </article>
-
-      <!-- PRODUCT: Ember Floor Lamp (SVG) -->
-      <article class="product-card" data-category="lighting" data-name="Ember Floor Lamp" data-material="Brass, linen shade" data-dim="35 x 35 x 150 cm" data-price="120000" data-status="in-stock" data-badge="new" data-order="10">
-        <div class="product-card__image-wrap" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--ivory-deep),var(--ivory));">
-          <svg viewBox="0 0 100 100" fill="none" stroke="var(--walnut)" stroke-width="1.5" style="width:55%;height:55%;"><path d="M50 25 L50 70"/><path d="M35 70 L65 70"/><path d="M42 25 L58 25 L54 38 L46 38 Z"/><path d="M40 70 L40 80 Q40 85 50 85 Q60 85 60 80 L60 70"/></svg>
-          <button class="product-card__wishlist" aria-label="Add Ember Floor Lamp to wishlist" type="button" style="opacity:1;transform:none;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-          <button class="product-card__quickview" aria-label="Quick view Ember Floor Lamp" type="button" style="opacity:1;transform:none;">Quick View</button>
-        </div>
-        <div class="product-card__meta">
-          <p class="product-card__category">Lighting</p>
-          <h3 class="product-card__name">Ember Floor Lamp</h3>
-          <p class="product-card__material">Brass &amp; linen</p>
-          <div class="product-card__footer">
-            <span class="product-card__price">120,000<span class="product-card__price-currency">RWF</span></span>
-            <span class="product-card__status product-card__status--in-stock">In Stock</span>
-          </div>
-        </div>
-      </article>
-
-      <!-- PRODUCT: Dawn Pendant Light (SVG) -->
-      <article class="product-card" data-category="lighting" data-name="Dawn Pendant Light" data-material="Blown glass, brass fitting" data-dim="28 x 28 x 32 cm" data-price="88000" data-status="in-stock" data-badge="" data-order="11">
-        <div class="product-card__image-wrap" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--ivory-deep),var(--ivory));">
-          <svg viewBox="0 0 100 100" fill="none" stroke="var(--walnut)" stroke-width="1.5" style="width:55%;height:55%;"><path d="M50 20 L50 35"/><circle cx="50" cy="50" r="15"/><path d="M42 50 L42 62 Q50 68 58 62 L58 50"/><path d="M50 65 L50 80"/></svg>
-          <button class="product-card__wishlist" aria-label="Add Dawn Pendant Light to wishlist" type="button" style="opacity:1;transform:none;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-          <button class="product-card__quickview" aria-label="Quick view Dawn Pendant Light" type="button" style="opacity:1;transform:none;">Quick View</button>
-        </div>
-        <div class="product-card__meta">
-          <p class="product-card__category">Lighting</p>
-          <h3 class="product-card__name">Dawn Pendant Light</h3>
-          <p class="product-card__material">Glass &amp; brass</p>
-          <div class="product-card__footer">
-            <span class="product-card__price">88,000<span class="product-card__price-currency">RWF</span></span>
             <span class="product-card__status product-card__status--in-stock">In Stock</span>
           </div>
         </div>
@@ -678,16 +646,16 @@
   <div class="container">
     <div class="craft__grid">
       <div class="craft__image-wrap reveal">
-        <img class="craft__image" src="video/PXL_20260813_085539997.NIGHT.jpg.jpeg" alt="Furniture being crafted in the Modern Home Rwanda workshop in Kigali" loading="lazy">
+        <img class="craft__image" src="video/PXL_20260813_085539997.NIGHT.jpg.jpeg" alt="Furniture being crafted in the Modern Home Rwanda workshop in Musaze" loading="lazy">
       </div>
       <div class="reveal">
         <p class="craft__eyebrow">Our Approach</p>
-        <h2 class="craft__title">Designed in Kigali. Made for the way Rwanda lives.</h2>
-        <p class="craft__text">Each piece is built to order in our Kigali workshop, combining contemporary design principles with materials and craftsmanship suited to how you live. We create furniture that belongs in your home, not just on a showroom floor.</p>
+        <h2 class="craft__title">Designed in Musaze. Made for the way Rwanda lives.</h2>
+        <p class="craft__text">Each piece is built to order in our Musaze workshop, combining contemporary design principles with materials and craftsmanship suited to how you live. We create furniture that belongs in your home, not just on a showroom floor.</p>
         <div class="craft__stats">
           <div class="craft__stat"><span class="craft__stat-label">Made to Order</span><span class="craft__stat-value">Every piece crafted individually</span></div>
           <div class="craft__stat"><span class="craft__stat-label">Custom Solutions</span><span class="craft__stat-value">Tailored to your space</span></div>
-          <div class="craft__stat"><span class="craft__stat-label">Kigali Based</span><span class="craft__stat-value">Local workshop, global quality</span></div>
+          <div class="craft__stat"><span class="craft__stat-label">Musaze Based</span><span class="craft__stat-value">Local workshop, global quality</span></div>
         </div>
       </div>
     </div>
@@ -703,17 +671,17 @@
     </div>
     <div class="interiors__grid">
       <div class="interior-card reveal">
-        <img class="interior-card__image" src="video/Professional e-commerce furniture photography, modern grey sofa in a bright living room with natural lighting, styled with cushions and plants, clean minimalist interior, shot from 45 degree angle, high quality pro.jpg" alt="Modern living room interior design" loading="lazy">
+        <img class="interior-card__image" src="video/PXL_20260813_085521498.NIGHT.jpg.jpeg" alt="Modern living room interior design" loading="lazy">
         <div class="interior-card__overlay"></div>
         <div class="interior-card__content"><p class="interior-card__type">Living Room</p><h3 class="interior-card__name">Serene Heights Residence</h3></div>
       </div>
       <div class="interior-card reveal">
-        <img class="interior-card__image" src="video/Professional e-commerce bedroom furniture photography, modern wooden bed with white bedding in styled bedroom, natural morning light through windows, minimalist decor with plants, shot from front angle, high qualit.jpg" alt="Modern bedroom interior design" loading="lazy">
+        <img class="interior-card__image" src="video/PXL_20260813_085552968.NIGHT.jpg.jpeg" alt="Modern bedroom interior design" loading="lazy">
         <div class="interior-card__overlay"></div>
         <div class="interior-card__content"><p class="interior-card__type">Bedroom</p><h3 class="interior-card__name">Nyarutarama Suite</h3></div>
       </div>
       <div class="interior-card reveal">
-        <img class="interior-card__image" src="video/Lifestyle furniture photography, family relaxing on modern beige sofa in bright living room, natural window light, cozy atmosphere, professional e-commerce product photography showing furniture in use.jpg" alt="Family-friendly living space interior" loading="lazy">
+        <img class="interior-card__image" src="video/PXL_20260813_085708239.NIGHT.jpg.jpeg" alt="Family-friendly living space interior" loading="lazy">
         <div class="interior-card__overlay"></div>
         <div class="interior-card__content"><p class="interior-card__type">Family Space</p><h3 class="interior-card__name">Kimironko Home</h3></div>
       </div>
@@ -783,7 +751,7 @@
       </div>
       <div>
         <h4 class="footer__col-title">Contact</h4>
-        <p class="footer__contact-item">Kigali, Rwanda</p>
+        <p class="footer__contact-item">Musaze, Rwanda</p>
         <p class="footer__contact-item"><a href="tel:+250737798270">+250 737 798 270</a></p>
         <p class="footer__contact-item"><a href="mailto:hello@modernhomerwanda.rw">hello@modernhomerwanda.rw</a></p>
         <p class="footer__contact-item"><a href="#" id="footerWhatsapp" target="_blank" rel="noopener">WhatsApp</a></p>
@@ -796,7 +764,7 @@
     </div>
     <div class="footer__bottom">
       <span>&copy; 2026 Modern Home Rwanda. All rights reserved.</span>
-      <span>Designed in Kigali</span>
+      <span>Designed in Musaze</span>
     </div>
   </div>
 </footer>
@@ -890,10 +858,10 @@ if(videoModal)videoModal.addEventListener('click',function(e){if(e.target===vide
 
 /* ROOM SHOWCASE */
 var roomProducts={
-  sofa:{name:'Floral Sofa',material:'Velvet upholstery, oak frame',price:'580,000 RWF',image:'PXL_20260813_085633018.NIGHT.jpeg'},
-  'coffee-table':{name:'Rustic Coffee Table',material:'Reclaimed teak, iron base',price:'220,000 RWF',image:'coff.jpeg'},
-  lighting:{name:'Ember Floor Lamp',material:'Brass, linen shade',price:'120,000 RWF',image:'PXL_20260813_085633018.NIGHT.jpeg'},
-  sideboard:{name:'Musanze Sideboard',material:'Walnut veneer, brass pulls',price:'480,000 RWF',image:'ward.jpeg'}
+  sofa:{name:'Floral Sofa',material:'Velvet upholstery, oak frame',price:'350,000 RWF',image:'PXL_20260813_085633018.NIGHT.jpeg'},
+  'coffee-table':{name:'Rustic Coffee Table',material:'Reclaimed teak, iron base',price:'150,000 RWF',image:'coff.jpeg'},
+  lighting:{name:'Ember Floor Lamp',material:'Brass, linen shade',price:'120,000 RWF',image:'video/PXL_20260813_092150706.jpg.jpeg'},
+  sideboard:{name:'Musanze Sideboard',material:'Walnut veneer, brass pulls',price:'480,000 RWF',image:'video/PXL_20260813_091608612.jpg.jpeg'}
 };
 function selectRoomProduct(key){
   var p=roomProducts[key];if(!p)return;
@@ -902,6 +870,7 @@ function selectRoomProduct(key){
   $('#roomPanelPrice').textContent=p.price;
   $('#roomPanelImage').src=p.image;
   $('#roomPanelImage').alt=p.name;
+  $('.room__image').src=p.image;
   var wasp=$('#roomPanelWhatsapp');
   wasp.href='https://wa.me/'+WA.replace(/[^0-9]/g,'')+'?text='+encodeURIComponent('Hi, I\'m interested in the '+p.name+'.');
   $('#roomPanel').classList.add('is-visible');
