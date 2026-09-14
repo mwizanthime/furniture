@@ -90,9 +90,7 @@
     .nav__mobile a{font-family:var(--font-display);font-size:clamp(28px,6vw,40px);font-weight:500;color:var(--ink);padding:12px 24px;transition:color var(--dur-fast) var(--ease-out)}
     .nav__mobile a:hover{color:var(--brass)}
     .nav__mobile .nav__mobile-cta{margin-top:24px}
-    .hero{position:relative;height:95vh;min-height:580px;max-height:1000px;display:flex;align-items:flex-end;background:var(--espresso);overflow:hidden}
-    .hero__media{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%;transition:transform 12s var(--ease-out);will-change:transform}
-    .hero:hover .hero__media{transform:scale(1.04)}
+    .hero{position:relative;height:95vh;min-height:580px;max-height:1000px;display:flex;align-items:flex-end;background:var(--espresso);background-image:url('lg.jpeg');background-size:cover;background-position:center 40%;background-attachment:fixed;overflow:hidden}
     .hero::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,22,18,0.45) 0%,rgba(26,22,18,0.08) 35%,rgba(26,22,18,0.05) 55%,rgba(26,22,18,0.7) 100%);z-index:1;pointer-events:none}
     .hero__content{position:relative;z-index:2;max-width:680px;margin:0 var(--gutter) clamp(48px,7vh,80px);color:var(--white)}
     .hero__eyebrow{font-family:var(--font-body);font-size:13px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--brass-light);margin-bottom:16px;opacity:0;transform:translateY(16px);animation:heroReveal 0.8s var(--ease-out) 0.2s forwards}
@@ -325,7 +323,6 @@
 
 <!-- HERO -->
 <section class="hero" id="hero">
-  <img class="hero__media" src="project SONNY.png" alt="Modern living room with premium furniture in a sunlit interior" loading="eager">
   <div class="hero__content">
     <p class="hero__eyebrow">Musaze &middot; Rwanda</p>
     <h1 class="hero__title">
@@ -337,10 +334,6 @@
       <a class="btn btn--primary" href="#catalog">Explore Collection</a>
       <a class="btn btn--ghost" href="#consultation">Book a Consultation</a>
     </div>
-  </div>
-  <div class="hero__scroll" aria-hidden="true">
-    <span>Scroll to explore</span>
-    <div class="hero__scroll-line"></div>
   </div>
 </section>
 
@@ -375,22 +368,22 @@
           <span class="service-card__cta">Explore Furniture <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></span>
         </div>
       </div>
-      <div class="service-card reveal" tabindex="0" role="button" aria-label="Explore Interior Design">
-        <img class="service-card__image" src="video/PXL_20260813_085026540.NIGHT.jpg.jpeg" alt="Interior design showcase with modern furnishings" loading="lazy">
+      <div class="service-card reveal" tabindex="0" role="button" aria-label="Explore Wood Chairs">
+        <img class="service-card__image" src="wodd chair.jpeg" alt="Handcrafted wood chair for modern spaces" loading="lazy">
         <div class="service-card__overlay"></div>
         <div class="service-card__content">
-          <h3 class="service-card__name">Interior Design</h3>
-          <p class="service-card__desc">Complete interior concepts designed around your space.</p>
-          <span class="service-card__cta">Explore Interiors <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></span>
+          <h3 class="service-card__name">Wood Chairs</h3>
+          <p class="service-card__desc">Elegant wood chairs crafted for comfort and style.</p>
+          <span class="service-card__cta">Explore Wood Chairs <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></span>
         </div>
       </div>
-      <div class="service-card reveal" tabindex="0" role="button" aria-label="Start a Custom Project">
-        <img class="service-card__image" src="video/PXL_20260813_085318077.NIGHT.jpg.jpeg" alt="Custom furniture and bespoke interior solutions" loading="lazy">
+      <div class="service-card reveal" tabindex="0" role="button" aria-label="Explore Office Chairs">
+        <img class="service-card__image" src="office chair.png" alt="Ergonomic office chair for a productive workspace" loading="lazy">
         <div class="service-card__overlay"></div>
         <div class="service-card__content">
-          <h3 class="service-card__name">Custom Spaces</h3>
-          <p class="service-card__desc">Made-to-measure furniture and bespoke solutions.</p>
-          <span class="service-card__cta">Start a Project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></span>
+          <h3 class="service-card__name">Office Chairs</h3>
+          <p class="service-card__desc">Ergonomic office chairs designed for all-day comfort.</p>
+          <span class="service-card__cta">Explore Office Chairs <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></span>
         </div>
       </div>
     </div>
@@ -596,17 +589,17 @@
         </div>
       </article>
 
-      <!-- PRODUCT: Akagera Side Table -->
-      <article class="product-card" data-category="tables" data-name="Akagera Side Table" data-material="Ash wood" data-dim="45 x 45 x 50 cm" data-price="95000" data-image="video/PXL_20260813_091702263.jpg.jpeg" data-status="in-stock" data-badge="" data-order="8">
+      <!-- PRODUCT: Office Chair -->
+      <article class="product-card" data-category="chairs" data-name="Office Chair" data-material="Mesh and steel" data-dim="60 x 60 x 110 cm" data-price="95000" data-image="office chair.png" data-status="in-stock" data-badge="" data-order="8">
         <div class="product-card__image-wrap">
-          <img class="product-card__image" src="video/PXL_20260813_091702263.jpg.jpeg" alt="Akagera Side Table in ash wood" loading="lazy">
-          <button class="product-card__wishlist" aria-label="Add Akagera Side Table to wishlist" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-          <button class="product-card__quickview" aria-label="Quick view Akagera Side Table" type="button">Quick View</button>
+          <img class="product-card__image" src="office chair.png" alt="Ergonomic office chair" loading="lazy">
+          <button class="product-card__wishlist" aria-label="Add Office Chair to wishlist" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+          <button class="product-card__quickview" aria-label="Quick view Office Chair" type="button">Quick View</button>
         </div>
         <div class="product-card__meta">
-          <p class="product-card__category">Tables</p>
-          <h3 class="product-card__name">Akagera Side Table</h3>
-          <p class="product-card__material">Ash wood</p>
+          <p class="product-card__category">Chairs</p>
+          <h3 class="product-card__name">Office Chair</h3>
+          <p class="product-card__material">Mesh and steel</p>
           <div class="product-card__footer">
             <span class="product-card__price">95,000<span class="product-card__price-currency">RWF</span></span>
             <span class="product-card__status product-card__status--in-stock">In Stock</span>
@@ -860,7 +853,7 @@ if(videoModal)videoModal.addEventListener('click',function(e){if(e.target===vide
 var roomProducts={
   sofa:{name:'Floral Sofa',material:'Velvet upholstery, oak frame',price:'350,000 RWF',image:'PXL_20260813_085633018.NIGHT.jpeg'},
   'coffee-table':{name:'Rustic Coffee Table',material:'Reclaimed teak, iron base',price:'150,000 RWF',image:'coff.jpeg'},
-  lighting:{name:'Ember Floor Lamp',material:'Brass, linen shade',price:'120,000 RWF',image:'video/PXL_20260813_092150706.jpg.jpeg'},
+  lighting:{name:'Ember Floor Lamp',material:'Brass, linen shade',price:'120,000 RWF',image:'light.jpeg'},
   sideboard:{name:'Musanze Sideboard',material:'Walnut veneer, brass pulls',price:'480,000 RWF',image:'video/PXL_20260813_091608612.jpg.jpeg'}
 };
 function selectRoomProduct(key){
@@ -895,7 +888,7 @@ var descs={
   'Kivu Lounge Chair':'A walnut frame with hand-woven linen seat — light, sculptural, and comfortable enough for long evenings.',
   'Gishwati Armchair':'Oak frame with bouclé upholstery. Generous proportions and a curved back make this armchair a natural reading companion.',
   'Nyungwe Dining Table':'Solid mahogany dining table with traditional joinery. Seats six to eight comfortably, built to gather around for years.',
-  'Akagera Side Table':'Clean ash wood side table. Simple geometry, solid construction — the kind of piece that quietly earns its place.',
+  'Office Chair':'Ergonomic office chair designed for all-day comfort and productivity.',
   'Musanze Sideboard':'Walnut veneer with brass pull handles. Ample storage behind clean-lined doors, finished with subtle detail.',
   'Ember Floor Lamp':'A brass stem with a natural linen shade. Warm, directional light for reading corners and living spaces.',
   'Dawn Pendant Light':'Blown glass with brass fittings. Soft, diffused light that works over dining tables and kitchen islands.'
